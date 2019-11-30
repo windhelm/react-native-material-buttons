@@ -70,9 +70,11 @@ export default class Button extends PureComponent {
       let { disableAnimationDuration: duration } = this.props;
       let { disableAnimation } = this.state;
 
+      /*
       Animated
         .timing(disableAnimation, { toValue: disabled? 1 : 0, duration })
         .start();
+        */
     }
   }
 
